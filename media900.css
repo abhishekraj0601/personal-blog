@@ -24,9 +24,7 @@
   .content2{
     width: 40%;
   }
-  .content3{
-     margin-left: 20px;
-  }
+ 
   
      /*---contact---*/
 
@@ -81,6 +79,9 @@
     .msg {
         width: 90%;
        
+    }
+    .formtag button{
+        margin-bottom: 40px;
     }
 
     /*------service-*/

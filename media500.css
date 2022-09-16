@@ -5,8 +5,8 @@
         --head-h3:3.3vmax;
         --head-h4:3.5vmax;
         --head-h5:2.5vmax;
-        --buttons-b:3vmin;
-        --paragraph-p:3.5vmin;
+        --buttons-b:3.5vmin;
+        --paragraph-p:4vmin;
     }
     
     
@@ -17,15 +17,12 @@
     }
     #sidebar{
         height: 100%;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
     }
-    #sidebar h1{
-        margin-top: 10%;
-        margin-left: 10%;
-    }
-    #sidebar h1 span{
-       font-size: 5vmax;
+    
+    #sidebar h1 {
+       font-size: var(--head-h1);
     }
     #sidebar ul li button{
         flex-direction: row;
@@ -35,14 +32,7 @@
        
         width: 100%;
      }
-    #sidebar ul{
-     
-        width: auto;
-        height: 50%;
-        margin-left: 30%;
-        margin-top: 40%;
-        
-    }
+    
     .heading{
         display: flex;
        
@@ -82,8 +72,13 @@
         left: 43%;
     }
     #content{
+        height: auto;
         flex-direction: column-reverse;
 
+    }
+    .content3 {
+        margin: 0 20px;
+ 
     }
     
    .projects3 button {
@@ -101,6 +96,9 @@
     top: 110%;
   
 }
+.content3 p{
+    padding: 0;
+}
 .projects6 button{
  left: 40%;
    top: 150%;
@@ -113,6 +111,15 @@
     left: 40%;
     top: 220%;   
 }
-
-
+.form1{
+    width: auto;
+    margin: 0 20px;
+    text-align: center;
+}
+.contact2{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 20px;
+}
 }

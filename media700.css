@@ -7,7 +7,7 @@
       --head-h3:3.3vmax;
       --head-h4:3.5vmax;
       --head-h5:2.5vmax;
-      --buttons-b:3vmin;
+      --buttons-b:3.2vmin;
       --paragraph-p:2.5vmax;
   }
     #sidebar ul li button{
@@ -36,18 +36,20 @@
       height: 500px;
       width: 100%;
     }
+   
     .content2{
-      height: 400px;
+      height: 350px;
       width: 100%;
     }
     .content4{
       
-      width: 50%;
+      width: 60%;
       height: 90%;
     }
     .heading{
-      display: flex;font-size: var(--head-h2);
-      
+      display: flex;
+      font-size: var(--head-h2);
+     
       flex-direction: column;
       align-items: center;
 
@@ -80,33 +82,17 @@
      .projects3,.projects4 , .projects5,.projects6 , .projects7,.projects8{
       width: 80%;
       margin: 4% 0;
-     }
-     .projects3 button {
-      top: 42%;
-      left: 60%;
-  
-  }
-  .projects4 button{
-      top: 80%;
-      left: 50%;
-  }
-  .projects5 button{
-  
-      left: 50%;
-      top: 117%;
     
-  }
-  .projects6 button{
-   left: 50%;
-     top: 163%;
-  }
-  .projects7 button{
-    left: 50%;
-    top: 200%;
-  }
-  .projects8 button{
-      left: 50%;
-      top: 240%;   
+     }
+
+     .projects3 button ,.projects4 button ,.projects5 button ,.projects6 button, .projects7 button,.projects8 button{
+    
+      opacity: 0;
+  
+     }
+ 
+     .projects3:hover img ,.projects4:hover img,.projects5:hover img,.projects6:hover img,.projects7:hover img,.projects8:hover img{
+      opacity: 1;
   }
   #services{
   height: auto;
