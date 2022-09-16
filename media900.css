@@ -1,0 +1,196 @@
+
+@media screen and (max-width:900px) {
+/*--------sidebar-------*/
+:root{
+    --head-h1:4.5vmax;
+    --head-h2:4vmax;
+    --head-h3:3vmax;
+    --head-h4:3vmax;
+    --paragraph-p:2.5vmin;
+    --head-h5:2vmax;
+    --buttons-b:2vmin;
+}
+
+#sidebar ul{
+    margin-top: 90%;
+}
+
+    /*--------content-------*/
+  .content1{
+    width: 60%;
+  }
+  .content2{
+    width: 40%;
+  }
+  
+     /*---contact---*/
+
+     #contact-section{
+        height: 1360px;
+       
+    }
+    .contact{
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact2{
+        height: 100px;
+    }
+     
+    
+    .contact3{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 450px;
+        justify-content: space-evenly;
+    }
+    .contact4 , .contact5{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3%;
+    }
+
+    .formtag{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .name{
+        width: 90%;
+    }
+    .mail{
+        width: 90%;
+        margin-left: 2%;
+    }
+    
+    
+    .sub {
+        width: 90%;
+        border-radius: 40px;
+ 
+    }
+    .msg {
+        width: 90%;
+       
+    }
+
+    /*------service-*/
+
+    #services{
+        height:auto;
+    }
+    
+    .services1{
+        width: 49%;
+        float: left;
+       
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .services2{
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .services3 , .services4 , .services5 ,.services6 ,.services7 ,.services8{
+        width: 98%;
+        height: auto;
+    
+    }
+   
+   
+    
+    
+    /*-----------------prodect-------*/
+    #project{
+        height: 950px;
+        
+    }
+
+
+    .projects1{
+        width: 48%;
+        float: left;
+        height: 730px;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .projects2{
+        margin-top: 50px;
+        height: 730px;
+        width: 49%;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .projects3 , .projects4 , .projects5 ,.projects6 ,.projects7 ,.projects8{
+        width: 95%;
+        height: 250px;
+    }
+    .projects3 button {
+        top: 43%;
+        left: 41%;
+
+    }
+    .projects4 button{
+        top: 74%;
+        left: 35%;
+    }
+    .projects5 button{
+
+        left: 35%;
+        top: 107%;
+      
+    }
+    .projects6 button{
+       top: 40%;
+       left: 74%;
+       
+    }
+    .projects7 button{
+      left: 74%;
+    }
+    .projects8 button{
+        right: 15%;
+        top: 108%;   
+    }
+
+
+    /*-----about----*/
+    #about{
+         height: 1010px;
+     }
+     .about1{
+        width: 90%;
+        height:auto;
+
+    }
+   
+    .about2{
+        margin-top: 0;
+        width: 99%;
+        height:auto;
+    }
+    .about3{
+        width: 99%;
+        height: 350px;
+    }
+    .about4{
+        width: 99%;
+    }
+    
+    .about4 progress{
+        margin: 0;
+        margin-bottom: 40px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}

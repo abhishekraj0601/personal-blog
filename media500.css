@@ -1,0 +1,108 @@
+@media screen and (max-width:500px) {
+    :root{
+        --head-h1:4.5vmax;
+        --head-h2:4vmax;
+        --head-h3:3.3vmax;
+        --head-h4:3.5vmax;
+        --head-h5:2.5vmax;
+        --paragraph-p:3.5vmin;
+    }
+    
+    
+    #header{
+        width:50% ;
+    
+    }
+    #sidebar{
+        height: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #sidebar h1{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    #sidebar h1 span{
+       font-size: 5vmax;
+    }
+    
+    #sidebar ul{
+        width: auto;
+        height: 40%;
+        margin-left: 30%;
+        margin-top: 40%;
+        
+    }
+    .heading{
+        display: flex;
+       
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    
+    #services p{
+      
+        font-size: var(--paragraph-p);
+    }
+   
+    #main{
+        width: 100%;
+        height: auto;
+    }
+    
+    #show{
+        display: block;
+        border: none;
+        position: fixed;
+        color: var(--secondary-color);
+        background: transparent;
+        left:30px;
+        top:3%;
+    }
+   
+    #hide{
+        position: fixed;
+        display: block;
+        top: 3%;
+        border: none;
+        color: var(--secondary-color);
+        background: transparent;
+        left: 43%;
+    }
+    #content{
+        flex-direction: column-reverse;
+
+    }
+    
+   .projects3 button {
+    top: 42%;
+    left: 50%;
+
+}
+.projects4 button{
+    top: 74%;
+    left: 40%;
+}
+.projects5 button{
+
+    left: 38%;
+    top: 110%;
+  
+}
+.projects6 button{
+ left: 40%;
+   top: 150%;
+}
+.projects7 button{
+  left: 40%;
+  top: 185%;
+}
+.projects8 button{
+    left: 40%;
+    top: 220%;   
+}
+
+
+}

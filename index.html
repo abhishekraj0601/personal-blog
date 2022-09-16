@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media900.css">
+    <link rel="stylesheet" href="media700.css">
+    <link rel="stylesheet" href="media500.css">
+    <script src="https://kit.fontawesome.com/342cf64192.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="change">
+        <i class="fa-solid fa-palette "></i>
+        <div id="change">
+            
+            <h3>Theme color</h3>
+          <div class="change1">
+            <button id="btn1" onclick="red()" ></button>
+            <button id="btn2" onclick="orange()"></button>
+            <button id="btn3" onclick="green()"></button>
+            <button id="btn4" onclick="pink()"></button>
+
+           </div>
+        </div>
+    </div>
+    <div class="theme"> 
+        <img src="moon.png" alt="" id="icon" class="icon" >
+    </div>
+    <button id="show"><i class="fa-solid fa-bars fa-2x" ></i></button>
+   
+    <div id="header">
+        <div id="sidebar">
+            <button id="hide"><i class="fa-solid fa-xmark fa-2x"></i></button>
+
+            <h1>
+                
+               <span>Player</span>
+               <hr><hr> 
+            </h1>
+            <ul>
+                
+                <li><button class="btn active" onclick="home()">  <i class="fa-solid fa-house"> </i>Home</button></li>
+                <li><button class="btn" onclick="abt()"><i class="fa-solid fa-user"></i>About me</button></li>
+                <li><button class="btn" onclick="serv()"><i class="fa-solid fa-bars" ></i>Services</button></li>
+                <li><button class="btn" onclick="pro()"><i class="fa-solid fa-briefcase"></i>Projects</button></li>
+                <li> <button class="btn" onclick="cont()"><i class="fa-solid fa-comments"></i>Contact</button></li>
+                
+            </ul>
+        </div>
+    </div>
+     <!--------------------------this is main contetn---------------------------------->
+    <div id="main">
+        <div id="content">
+            <div class="content1">
+                <div class="content3">
+                    <h1>hello, my name is <span>player</span><br> i`m a <span>web designer</span></h1>
+                    <br>
+                    <p>he standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    <button onclick="abt()" >About Me</button>
+
+                </div>
+            </div>
+            <div class="content2">
+                <div class="content4">
+                
+                </div>
+            </div>
+        </div>
+
+         <!---------------------this is contact section----------------------->
+         <div id="contact-section">
+            <div class="heading">
+                <h2>Contact Me</h2>
+                <hr><hr>
+            </div>
+            <div class="contact">
+                
+                <div class="contact2">
+                    <h2>have you any questions ?</h2>
+                    <h3>i`m at your service</h3>
+                </div>
+                <div class="contact3"> 
+                    <div class="contact4">
+                        <div class="contact6">
+                            <div class="cir"><i class="fa-solid fa-phone fa-2x"></i></div>                           
+                             <h4>Call us</h4>
+                            <h5>+919039495825</h5>
+                        </div>
+                        <div class="contact7">
+                            <div class="cir"><i class="fa-solid fa-location-dot fa-2x"></i>                            </div>
+                            <h4>Office</h4>
+                            <h5>Bhopal</h5>
+                         </div>
+
+                    </div>
+                    <div class="contact5">
+                        <div class="contact8">
+                            <div class="cir"><i class="fa-solid fa-envelope fa-2x"></i></div>
+                            
+                            <h4>E-mail</h4>
+                            <h5>abhishekraj8685@gmail.com</h5>
+                        </div>
+                        <div class="contact9">
+                            <div class="cir"><i class="fa-solid fa-globe fa-2x"></i></div>
+                            
+                            <h4>web site</h4>
+                            <h5>www.google.com</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form">
+                <div class="form1">
+                    <h2>send me a Message</h2>
+                    <h3>i`m very responsive to Messages</h3>
+
+                </div>
+                <div class="formtag">
+                    <input type="name" placeholder="Name" class="name">
+                    <input type="email" placeholder="E-Mail" class="mail">
+                    <input type="text" placeholder="Subject" class="sub">
+                    <input type="text" placeholder="Message" class="msg">
+                    <button>Send Message</button>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+         <!--this is services-->
+
+         <div id="services">
+          
+
+            
+            <div class="heading">
+                <h2>Services</h2>
+                <hr>
+                <hr>
+
+            </div>
+            <div class="services1">
+                <div class="services3">
+                    <div class="cir"> <i class="fa-solid fa-mobile-screen fa-2x"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                
+                </div>
+                <div class="services4">
+                    <div class="cir">                    <i class="fa-solid fa-laptop fa-2x"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                
+                </div>
+                <div class="services5">
+                    <div class="cir">                    <i class="fa-solid fa-palette fa-2x"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                
+                </div>
+            </div>
+            <div class="services2">
+                <div class="services6">
+                    <div class="cir">                    <i class="fa-solid fa-arrow-right-arrow-left fa-2x"></i> 
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                
+                </div>
+                <div class="services7">
+                    <div class="cir">                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                
+                </div>
+                <div class="services8">
+                    <div class="cir">                    <i class="fa-brands fa-microsoft fa-2x"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                
+                </div>
+            </div>
+
+          
+         </div>    
+         
+         
+
+
+
+        <!--------------------------this si projects--------------------------------------------->
+        <div id="project">
+            
+
+            
+                <div class="heading">
+                    <h2>Projects</h2>
+                    <hr>
+                    <hr>
+    
+                </div>
+                <h3>My Last Projects:</h3>
+
+                <div class="projects1">
+
+                    <div class="projects3">
+                        <a href="https://abhishek8685.github.io/abhishek8685/"><img src="Screenshot .jpg" alt="">
+                        </a>
+                        <button>FULL VIEW</button>
+                    </div>
+                    <div class="projects4">
+                       <a href="https://abhishek8685.github.io/multimedia/"><img src="Screenshot2.jpg" alt=""></a>
+                       <button>FULL VIEW</button>
+
+                    </div>
+                    <div class="projects5">
+                        <a href="https://abhishek8685.github.io/education_website/"><img src="Screenshot3.jpg" alt="full view"></a>
+                        <button>FULL VIEW</button>
+
+                    </div>
+                </div>
+                <div class="projects2">
+                    <div class="projects6">
+                        <a href="https://abhishek8685.github.io/technology/"><img src="Screenshot 4.jpg" alt=""></a>
+                        <button>FULL VIEW</button>
+ 
+                    </div>
+                    <div class="projects7">
+                        <a href="https://abhishek8685.github.io/multimedia/"><img src="Screenshot2.jpg" alt=""></a>
+                        <button>FULL VIEW</button>
+ 
+                    </div>
+                    <div class="projects8">
+                        <a href="https://abhishek8685.github.io/multimedia/"><img src="Screenshot2.jpg" alt=""></a>
+                        <button>FULL VIEW</button>
+ 
+                    </div>
+                </div>
+    
+              
+        </div>
+
+      <!------------thisis is about section -------------->
+
+
+        <div id="about">
+                    <div class="heading">
+                        <h2>About ME</h2>
+                        <hr>
+                        <hr>
+                    </div>
+                    <div class="about1">
+                        <h2>i am unknown and <span>web developaer</span></h2>
+                        <p>he standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+                    </div>
+                    <div class="about2">
+                        <div class="about3">
+                            <div class="about5">
+                                <p><span>birthday </span>: 06 jan 2002</p>
+                                <p><span>website </span>: www.google.com</p>
+                                <p><span>degree </span>: EC</p>
+                                <p><span>city </span>: bhopal</p>
+
+                            </div>
+                            <div class="about6">
+                                <p><span>birthday </span>: 06 jan 2002</p>
+                                <p><span>website </span>: www.google.com</p>
+                                <p><span>degree </span>: EC</p>
+                                <p><span>city </span>: bhopal</p>
+                            </div>
+
+                            <button>download cv</button>
+                            <button>hire me</button>
+
+                        </div>
+                        <div class="about4">
+                            <label >HTML</label><br>
+                            <progress id="first" value="90" max="100"> 80% </progress> <br>                      
+                            <label >CSS</label><br>
+                            <progress  value="80" max="100"> 80% </progress><br>
+                            <label >JAVA SCRIPT</label><br>
+                            <progress  value="75"  max="100"> 80% </progress><br>
+                            <label >PYTHON</label><br>
+                            <progress  value="50" max="100"> 80% </progress>
+                           
+                        </div>
+                       
+                    </div>
+        
+       
+        </div> 
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
