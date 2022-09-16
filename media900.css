@@ -8,10 +8,12 @@
     --head-h4:3vmax;
     --paragraph-p:2.5vmin;
     --head-h5:2vmax;
-    --buttons-b:2vmin;
+    --buttons-b:2.5vmin;
 }
 
 #sidebar ul{
+  
+    height: 50%;
     margin-top: 90%;
 }
 
@@ -21,6 +23,9 @@
   }
   .content2{
     width: 40%;
+  }
+  .content3{
+     margin-left: 20px;
   }
   
      /*---contact---*/

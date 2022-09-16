@@ -5,12 +5,14 @@
         --head-h3:3.3vmax;
         --head-h4:3.5vmax;
         --head-h5:2.5vmax;
+        --buttons-b:3vmin;
         --paragraph-p:3.5vmin;
     }
     
     
     #header{
         width:50% ;
+        display: none;
     
     }
     #sidebar{
@@ -25,10 +27,18 @@
     #sidebar h1 span{
        font-size: 5vmax;
     }
-    
+    #sidebar ul li button{
+        flex-direction: row;
+           
+     }
+     #sidebar ul li{
+       
+        width: 100%;
+     }
     #sidebar ul{
+     
         width: auto;
-        height: 40%;
+        height: 50%;
         margin-left: 30%;
         margin-top: 40%;
         

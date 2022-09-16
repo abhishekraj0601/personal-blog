@@ -116,7 +116,7 @@ show.onclick = function(){
 hide.onclick = function(){
     header.style.display="none";
 }
-
+var header = document.getElementById("header");
 function checkSize(){
     var x = window.matchMedia("(max-width:500px)")
     if(x.matches){
@@ -129,7 +129,7 @@ function checkSize(){
 
 
 var sidebar = document.getElementById("sidebar");
-var btns = header.getElementsByClassName("btn");
+var btns = sidebar.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
   var current = document.getElementsByClassName("active");

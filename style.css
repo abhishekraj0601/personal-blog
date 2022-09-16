@@ -154,16 +154,6 @@ hr{
     list-style: none;
 
 }
-/* #sidebar ul li button{
-    color:var(--secondary-color);
-    font-size: larger;
-    border: none;
-    background: transparent;
-} */
-/* #sidebar ul li button:hover{
-    color: var(--teriotry-color);
-    cursor: pointer;
-} */
 
 .btn{
     background: transparent;
