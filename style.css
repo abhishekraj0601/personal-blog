@@ -242,7 +242,7 @@ span{
         border: none;
         font-size:var(--buttons-b);
         cursor: pointer;
-        color: var(--secondary-color);
+        color: white;
         background-color: var(--teriotry-color);
         transition: cubic-bezier(1, 0, 0, 1);
 }
@@ -416,7 +416,7 @@ margin-top: 5%;
     border: none;
     font-size:var(--buttons-b);
     cursor: pointer;
-    color: var(--secondary-color);
+    color: white;
     background-color: var(--teriotry-color);
   
 }
@@ -760,7 +760,7 @@ margin-top: 5%;
         border: none;
         font-size:var(--buttons-b);
         cursor: pointer;
-        color: var(--secondary-color);
+        color: white;
         background-color: var(--teriotry-color);
     }
 

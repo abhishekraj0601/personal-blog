@@ -72,7 +72,7 @@
         left: 43%;
     }
     #content{
-        height: auto;
+        height: 100vh;
         flex-direction: column-reverse;
 
     }

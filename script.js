@@ -137,3 +137,14 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+
+
+// this is auto writing section
+
+var typed = new Typed(".auto-type", {
+    strings: ["coader","YouTuber","web developer"],
+    typeSpeed:150,
+    backSpeed:150,
+    loop:true
+})
